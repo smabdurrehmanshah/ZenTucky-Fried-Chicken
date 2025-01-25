@@ -1,0 +1,211 @@
+@media screen and (max-width: 1120px) {
+  .navbar {
+    padding: 0 15px 10px 15px;
+  }
+  
+  .logo {
+    padding: 10px 15px;
+  }
+
+  .logo > img {
+    width: 180px;
+  }
+
+  .links > ul {
+    gap: 15px;
+  }
+
+  .links > ul > li {
+    padding: 55px 20px 15px;
+    font-weight: 500;
+  }
+
+  .left > img {
+    width: 300px;
+  }
+
+  .right > img {
+    width: 350px;
+  }
+  
+  .hero {
+    height: 80%;
+    align-items: center;
+  }
+
+  .about-right > img {
+    width: 300px;
+  }
+
+  .about-left > h1 {
+    font-size: 40px;
+  }
+
+  .about-left > p {
+    font-size: 12px;
+  }
+
+  .download {
+    height: 450px;
+  }
+
+  .download-content {
+    height: 450px;
+  }
+
+  .download-left > img {
+    width: 300px;
+  }
+
+  .download-right > div {
+    font-size: 20px;
+  }
+
+  .download-right > img {
+    width: 250px;
+  }
+
+  .feedback-right {
+    width: 450px;
+    row-gap: 25px;
+    padding: 10px;
+  }
+
+  .feedback-review p {
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .feedback-left > h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .links {
+    display: none;
+  }
+
+  .navbar {
+    align-items: center;
+  }
+
+  .logo > img {
+    width: 160px;
+  }
+
+  .logo {
+    padding: 5px 10px;
+  }
+
+  .navbar > .hamburger {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero {
+   flex-wrap: wrap;
+  }
+
+  .right {
+    row-gap: 25px;
+  }
+
+  .right > img {
+    width: 280px;
+  }
+
+  .right > .btn {
+    padding: 8px;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .about-us {
+    flex-wrap: wrap;
+    margin: 70px 20px;
+    justify-content: center;
+  }
+
+  .about-left {
+    order: 1;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .about-left > p {
+    padding: 0 10px;
+  }
+
+  .about-left > div > p {
+    text-align: center;
+  }
+
+  .about-right > img {
+    width: 300px;
+    position: static;
+  }
+
+  .download {
+    height: 750px;
+  }
+
+  .download-content {
+    flex-wrap: wrap;
+    height: 750px;
+  }
+
+  .download-right > div {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .menu-cards > .card {
+    min-width: 250px;
+    flex: 1;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .feedback-content {
+   flex-wrap: wrap;
+  }
+
+  .feedback-right {
+    width: 250px;
+    
+  }
+
+  .feedback-left {
+    position: static;
+  }
+
+  .feedback-review > img {
+    display: none;
+  }
+
+  .timing {
+    margin: 50px 15px 100px;
+  }
+
+  .timing-content > h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  .footer-left > p {
+    width: 250px;
+  }
+}

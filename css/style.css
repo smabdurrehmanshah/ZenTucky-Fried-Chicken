@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Road+Rage&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "poppins", serif;
+}
+
+.main {
+    background-image: url(../assests/images/bgimg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 641px;
+}
+
+.main-content {
+    height: 641px;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.navbar {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px 10px 60px;
+}
+
+.navbar > .hamburger {
+    display: none;
+}
+
+.logo {
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.logo > img {
+    width: 200px;
+}
+
+.links > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: -20px;
+    color: white;
+    cursor: pointer;
+}
+
+.links > ul > li {
+    padding: 55px 30px 15px;
+    font-weight: 500;
+}
+
+ul > .active {
+    background-color: white;
+    color: red;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left > img {
+    width: 500px;
+}
+
+.right > img {
+    width: 600px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.right > .btn {
+    border: none;
+    background-color: #FFCC02;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about-us {
+    background-color: #FFCC02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin: 70px 40px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.about-right > img {
+    width: 500px;
+    position:  relative;
+    right: -20px;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-left: 50px;
+}
+
+.about-left > h1 {
+    font-family: "pacifico", Georgia;
+    font-size: 60px;
+    font-style: italic;
+    color: #E31E25;
+}
+
+.about-left ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.about-left ul li img{
+    width: 40px;
+    cursor: pointer;
+}
+
+.download {
+    background-image: url(../assests/images/download-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.download-content {
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.download-left > img {
+    width: 500px;
+}
+
+.download-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-right > div {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.download-right h1 {
+    color: #FFCC02;
+}
+
+.menu-list {
+    margin-top: 60px;
+}
+
+.menu-list > h1 {
+    color: #E31E25;
+    text-align: center;
+}
+
+.menu-list > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+
+.menu-list > ul > li {
+    padding: 10px 20px;
+    background-color: #DDDDDD;
+    color: grey;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.menu-list > ul > .active {
+    background-color: #E31E25;
+    color: white;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+.menu-cards > .card {
+    max-width: 280px;
+    height: 380px;
+    box-shadow: 0 5px 15px #00000040;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.card img {
+    width: 280px;
+    height: 180px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card > h2 {
+    font-weight: 500;
+}
+
+.card > .menu-name {
+    font-weight: 600;
+    line-height: 24px;
+    color: #353535;
+    margin-bottom: 10px;
+}
+
+.card > .add-to-cart {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.add-to-cart > button {
+    font-weight: 700;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: #E31E25;
+    color: white;
+    border: none;
+    box-shadow: 0 0 3px #00000040;
+    cursor: pointer;
+}
+
+.feedback {
+    background-image: url(../assests/images/1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.feedback-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.feedback-right {
+    height: 300px;
+    width: 700px;
+    background-color: #FFCC02;
+    border-radius: 30px;
+    padding: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.dp > img {
+    width: 100px;
+}
+
+.feedback-right > .dp {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.feedback-review {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+
+.feedback-review > img {
+    width: 25px;
+    object-fit: contain;
+}
+
+.feedback-review p {
+    width: 500px;
+}
+
+.feedback-left {
+    position: relative;
+    top: 100px;
+}
+
+.feedback-left > h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.feedback-left > .customer {
+    font-weight: bold;
+}
+
+.timing {
+    background-image: url(../assests/images/download-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    margin: 50px 40px 100px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.timing-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 250px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.timing-content > h1 {
+    font-weight: 500;
+}
+
+.timing-content > .first-child {
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    margin: 0 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left > img {
+    width: 200px;
+}
+
+.footer-left > p {
+    width: 280px;
+    padding-top: 20px;
+}
+
+.footer-right > ul {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.footer-right > ul > li {
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.copywrite p {
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+}
