@@ -99,6 +99,10 @@
     padding: 5px 10px;
   }
 
+  .main, .main-content {
+    height: 90vh;
+  }
+
   .navbar > .hamburger {
     height: 56px;
     width: 56px;
