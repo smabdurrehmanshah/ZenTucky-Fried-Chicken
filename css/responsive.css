@@ -175,6 +175,15 @@
     line-height: 35px;
   }
 
+  .menu-list ul {
+    justify-content: flex-start;
+  }
+
+  .menu-list > ul > li {
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+
   .menu-cards > .card {
     min-width: 250px;
     flex: 1;
