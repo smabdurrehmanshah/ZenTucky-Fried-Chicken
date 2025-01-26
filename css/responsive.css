@@ -111,6 +111,7 @@
 
   .hero {
    flex-wrap: wrap;
+   align-items: flex-end;
   }
 
   .right {
@@ -118,7 +119,11 @@
   }
 
   .right > img {
-    width: 280px;
+    width: 320px;
+  }
+
+  .left > img {
+    width: 320px;
   }
 
   .right > .btn {

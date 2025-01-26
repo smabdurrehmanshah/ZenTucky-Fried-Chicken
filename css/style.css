@@ -14,11 +14,11 @@ body {
     background-image: url(../assests/images/bgimg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 641px;
+    height: 100vh;
 }
 
 .main-content {
-    height: 641px;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7); 
 }
 
@@ -66,6 +66,7 @@ ul > .active {
 }
 
 .hero {
+    height: 85vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
