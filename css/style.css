@@ -191,7 +191,7 @@ ul > .active {
     gap: 10px;
     margin: 30px 0;
     cursor: pointer;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 .menu-list > ul > li {
